@@ -1,0 +1,16 @@
+name: SpectatePlugin
+version: 1.0.0
+main: ru.nulls.sniffer.spec.SpectatePlugin
+api-version: '1.20'
+author: nulls
+softdepend:
+  - PlaceholderAPI
+  - packetevents
+commands:
+  spec:
+    description: Управление режимом слежки
+    usage: /spec <start|stop> [ник]
+    permission: spec.use
+permissions:
+  spec.use:
+    default: op
