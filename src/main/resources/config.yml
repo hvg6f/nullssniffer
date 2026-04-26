@@ -1,0 +1,18 @@
+messages:
+  no-permission: "&cУ вас нет прав на эту команду."
+  cannot-self: "&cНельзя следить за собой."
+  started: "&aВы начали следить за игроком &f%target%&a."
+  stopped: "&eВы вышли из режима слежки."
+  not-spectating: "&cВы не в режиме слежки."
+  target-not-found: "&cИгрок не найден."
+  target-left: "&cИгрок вышел, слежка остановлена."
+
+hud:
+  update-ticks: 20
+  subtitle-format: "&fНик: &e%target% &7| &fОС: &b%device% &7| &fПинг: &a%ping%ms &7| &fCPS: &6%cps%"
+  device-fallback: "unknown"
+
+bossbar:
+  text: "&eВы в режиме слежки"
+  color: "YELLOW"
+  style: "SOLID"
